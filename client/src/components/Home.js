@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
 
+import BrillianceCard from './BrillianceCard';
+import VowCard from './VowCard';
+
 class Home extends Component {
   render() {
     return(
       <div>
-      <div/>
+        <BrillianceCard />
+        <VowCard />
+      </div>
     );
   }
 }

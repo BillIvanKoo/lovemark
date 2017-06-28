@@ -1,24 +1,24 @@
 import React, { Component } from 'react';
-import { Image } from 'react-bootstrap';
+import { BrowserRouter, Route } from 'react-router-dom';
+import { Provider } from 'react-redux';
 
-import TopNav from './components/TopNav';
-import lovemark_logo from './assets/lovemark_logo.png';
+import AppHeader from './components/AppHeader';
+import Home from './components/Home';
+import store from './store';
 
 class App extends Component {
   render() {
     return(
-      <div>
-        <Image
-          src={lovemark_logo}
-          alt="lovemark_logo"
-          responsive
-          style={{
-            display: 'block',
-            margin: 'auto'
-          }}
-        />
-        <TopNav />
-      </div>
+      <Provider store={store}>
+        <BrowserRouter>
+          <div>
+            <AppHeader />
+            <div style={{marginTop: '150px'}}>
+              <Route exact path="/" component={Home} />
+            </div>
+          </div>
+        </BrowserRouter>
+      </Provider>
     );
   }
 }
