@@ -1,5 +1,6 @@
 import React from 'react';
 import { Image } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 import TopNav from './TopNav';
 import lovemark_logo from '../assets/lovemark_logo.png';
@@ -14,17 +15,19 @@ const AppHeader = () => (
       backgroundColor: 'white',
     }}
   >
-    <Image
-      src={lovemark_logo}
-      alt="lovemark_logo"
-      responsive
-      style={{
-        display: 'block',
-        margin: 'auto',
-        marginTop: '-30px',
-        marginBottom: '-40px',
-      }}
-    />
+    <Link to="/">
+      <Image
+        src={lovemark_logo}
+        alt="lovemark_logo"
+        responsive
+        style={{
+          display: 'block',
+          margin: 'auto',
+          marginTop: '-30px',
+          marginBottom: '-40px',
+        }}
+      />
+    </Link>
     <TopNav />
   </div>
 );

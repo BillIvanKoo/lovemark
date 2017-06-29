@@ -4,17 +4,21 @@ import { Provider } from 'react-redux';
 
 import AppHeader from './components/AppHeader';
 import Home from './components/Home';
+import ProductList from './components/ProductList'
 import store from './store';
 
 class App extends Component {
   render() {
-    return(
+    return (
       <Provider store={store}>
         <BrowserRouter>
           <div>
             <AppHeader />
             <div style={{marginTop: '110px'}}>
               <Route exact path="/" component={Home} />
+              <Route exact path="/jewellery" component={ProductList} />
+              <Route path="/jewellery/:type" component={ProductList} />
+              <Route path="/collections/:category" component={ProductList} />
             </div>
           </div>
         </BrowserRouter>

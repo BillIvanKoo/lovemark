@@ -8,7 +8,7 @@ import homepage_heritage from '../assets/home/homepage_heritage.png';
 
 class Home extends Component {
   render() {
-    return(
+    return (
       <div>
         <BrillianceCard />
         <VowCard />

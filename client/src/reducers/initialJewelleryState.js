@@ -37,7 +37,7 @@ export default [
   {
     name: 'Arrow',
     type: 'rings',
-    category: 'city lights',
+    category: 'citylights',
     price: '$360.00',
     metalType: '18K',
     goldWeight: '1.46g',
@@ -47,7 +47,7 @@ export default [
   {
     name: 'Arrow Round',
     type: 'rings',
-    category: 'city lights',
+    category: 'citylights',
     price: '$400.00',
     metalType: '18K',
     goldWeight: '1.44g',
@@ -242,7 +242,7 @@ export default [
   {
     name: 'Chain',
     type: 'rings',
-    category: 'city lights',
+    category: 'citylights',
     price: '$280.00',
     metalType: '18K',
     goldWeight: '1.62g',
@@ -251,7 +251,7 @@ export default [
   {
     name: 'City Lights Starlight',
     type: 'rings',
-    category: 'city lights',
+    category: 'citylights',
     price: '$1,180.00',
     metalType: '18K',
     goldWeight: '3.28g',
@@ -272,7 +272,7 @@ export default [
   {
     name: 'Crown',
     type: 'rings',
-    category: 'city lights',
+    category: 'citylights',
     price: '$640.00',
     metalType: '18K',
     goldWeight: '1.80g',
@@ -282,7 +282,7 @@ export default [
   {
     name: 'Curve',
     type: 'rings',
-    category: 'city lights',
+    category: 'citylights',
     price: '$620.00',
     metalType: '18K',
     goldWeight: '2.31g',
@@ -375,15 +375,13 @@ export default [
   },
   {
     name: 'Fortune Earrings',
-    type: '',
-    gender: '',
+    type: 'earrings',
     category: 'brilliance',
-    description: '',
-    price: '',
-    metalType: '',
-    goldWeight: '',
-    stoneInfo: '',
-    productCode: ''
+    price: '$840.00',
+    metalType: '18K',
+    goldWeight: '1.80g',
+    stoneInfo: '2 Diamonds-0.17cts',
+    productCode: 'LME00101'
   },
   {
     name: 'Fortune Necklace',
@@ -393,12 +391,12 @@ export default [
     metalType: '18K',
     goldWeight: '1.80g',
     stoneInfo: '2 Diamonds-0.17cts',
-    productCode: 'LME00101'
+    productCode: 'LMN00101'
   },
   {
     name: 'Galaxy',
     type: 'rings',
-    category: 'city lights',
+    category: 'citylights',
     price: '$920.00',
     metalType: '18K',
     goldWeight: '2.17g',
@@ -441,7 +439,7 @@ export default [
   {
     name: 'Lady Bug',
     type: 'rings',
-    category: 'city lights',
+    category: 'citylights',
     price: '$460.00',
     metalType: '18K',
     goldWeight: '1.39g',
@@ -451,7 +449,7 @@ export default [
   {
     name: 'Love Chain',
     type: 'rings',
-    category: 'city lights',
+    category: 'citylights',
     price: '$360.00',
     metalType: '18K',
     goldWeight: '1.58g',
@@ -485,7 +483,7 @@ export default [
   {
     name: 'Moonlight',
     type: 'rings',
-    category: 'city lights',
+    category: 'citylights',
     price: '$560.00',
     metalType: '18K',
     goldWeight: '1.43g',
@@ -495,7 +493,7 @@ export default [
   {
     name: 'Moonlight',
     type: 'rings',
-    category: 'city lights',
+    category: 'citylights',
     price: '$500.00',
     metalType: '18K',
     goldWeight: '1.24g',
@@ -505,7 +503,7 @@ export default [
   {
     name: 'Moonlight Earrings',
     type: 'earrings',
-    category: 'city lights',
+    category: 'citylights',
     description: 'To reflect the joy, the glamorous. The beauty of the city. For every lights that shines. And reflect at a perfect time. For every moment',
     price: '$1,275.00',
     metalType: '18K',
@@ -516,7 +514,7 @@ export default [
   {
     name: 'Moonlight Necklace',
     type: 'necklace',
-    category: 'city lights',
+    category: 'citylights',
     price: '$600.00–$1,020.00',
     metalType: '18K Black Gold, 18K Rose Gold',
     goldWeight: '1.57g',
@@ -537,7 +535,7 @@ export default [
   {
     name: 'Persian',
     type: 'rings',
-    category: 'city lights',
+    category: 'citylights',
     price: '$260.00',
     metalType: '18K',
     goldWeight: '1.32g',
@@ -595,7 +593,7 @@ export default [
   {
     name: 'Ribbon',
     type: 'rings',
-    category: 'city lights',
+    category: 'citylights',
     price: '$540.00',
     metalType: '18K',
     goldWeight: '1.54g',
@@ -616,7 +614,7 @@ export default [
   {
     name: 'Rope',
     type: 'rings',
-    category: 'city lights',
+    category: 'citylights',
     price: '$280.00',
     metalType: '18K',
     goldWeight: '1.62g',
@@ -624,20 +622,20 @@ export default [
   },
   {
     name: 'Starlight Necklace',
-    type: 'Necklace',
-    category: '',
+    type: 'necklace',
+    category: 'citylights',
     price: '$2,150.00',
     metalType: '18K',
     goldWeight: '18K',
     stoneInfo: '10 Yellow Diamonds-1.319cts',
     length: '17',
-    productCode: ''
+    productCode: 'LMN00011'
   },
   {
     name: 'Trine',
     type: 'rings',
-    category: 'city lights',
-    price: '%640.00',
+    category: 'citylights',
+    price: '$640.00',
     metalType: '18K',
     goldWeight: '2.86g',
     stoneInfo: '21 Diamonds-0.155cts',
@@ -646,7 +644,7 @@ export default [
   {
     name: 'Trine',
     type: 'rings',
-    category: 'city lights',
+    category: 'citylights',
     price: '$720.00',
     metalType: '18K',
     goldWeight: '2.74g',
