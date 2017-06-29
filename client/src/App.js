@@ -13,7 +13,7 @@ class App extends Component {
         <BrowserRouter>
           <div>
             <AppHeader />
-            <div style={{marginTop: '150px'}}>
+            <div style={{marginTop: '110px'}}>
               <Route exact path="/" component={Home} />
             </div>
           </div>
