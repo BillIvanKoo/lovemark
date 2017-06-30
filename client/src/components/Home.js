@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Col, Image } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 import BrillianceCard from './BrillianceCard';
 import VowCard from './VowCard';
@@ -13,23 +14,21 @@ class Home extends Component {
         <BrillianceCard />
         <VowCard />
         <div style={{ margin: '3.775%' }}>
-          <Col
-            xs={12}
-            md={6}
-          >
-            <Image
-              src={homepage_heritage}
-              responsive
-            />
+          <Col xs={12} md={6}>
+            <Link to="/collections/heritage">
+              <Image
+                src={homepage_heritage}
+                responsive
+              />
+            </Link>
           </Col>
-          <Col
-            xs={12}
-            md={6}
-          >
-            <Image
-              src={homepage_citylight}
-              responsive
-            />
+          <Col xs={12} md={6}>
+            <Link to="/collections/citylights">
+              <Image
+                src={homepage_citylight}
+                responsive
+              />
+            </Link>
           </Col>
         </div>
       </div>

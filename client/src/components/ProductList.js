@@ -17,11 +17,11 @@ class ProductList extends Component {
   componentWillMount() {
     if (this.props.match.params.type){
       this.setState({
-        jewelleries: this.state.jewelleries.filter(jewellery=>jewellery.type === this.props.match.params.type)
+        jewelleries: [...this.state.jewelleries.filter(jewellery=>jewellery.type === this.props.match.params.type)]
       });
     } else if (this.props.match.params.category){
       this.setState({
-        jewelleries: this.state.jewelleries.filter(jewellery=>jewellery.category === this.props.match.params.category)
+        jewelleries: [...this.state.jewelleries.filter(jewellery=>jewellery.category === this.props.match.params.category)]
       });
     }
   }
@@ -39,7 +39,7 @@ class ProductList extends Component {
     const indexOfFirstProduct = indexOfLastProduct - productPerPage;
     const currentProducts = jewelleries.slice(indexOfFirstProduct, indexOfLastProduct);
     let pageLength = 0;
-    for (let i = 0; i <= Math.floor(jewelleries.length / productPerPage); i++) {
+    for (let i = 0; i < Math.ceil(jewelleries.length / productPerPage); i++) {
       pageLength+=1;
     }
     return (

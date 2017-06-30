@@ -1,5 +1,6 @@
 import React from 'react';
 import { Image, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 import brilliance_homepage from '../assets/home/brilliance_homepage.png';
 
@@ -51,13 +52,15 @@ const BrillianceCard = () => (
       >
       Give some sparkles to the one who gives her all.
       </p>
-      <Button
-        style={{
-          fontSize: '1.5vw',
-        }}
-      >
-      Discover
-      </Button>
+      <Link to="/collections/brilliance">
+        <Button
+          style={{
+            fontSize: '1.5vw',
+          }}
+        >
+          Discover
+        </Button>
+      </Link>
     </div>
   </div>
 )

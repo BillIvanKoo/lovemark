@@ -1,5 +1,6 @@
 import React from 'react';
 import { Image, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 import vow_homepage from '../assets/home/vow_homepage.png';
 
@@ -19,16 +20,18 @@ const VowCard = () => (
         margin: 'auto',
       }}
     />
-    <Button
-      style={{
-        position: 'absolute',
-        bottom: '15%',
-        right: '26.5%',
-        fontSize: '1.5vw',
-      }}
-    >
-      Browse
-    </Button>
+    <Link to="/collections/brilliance">
+      <Button
+        style={{
+          position: 'absolute',
+          bottom: '15%',
+          right: '26.5%',
+          fontSize: '1.5vw',
+        }}
+      >
+        Browse
+      </Button>
+    </Link>
   </div>
 )
 

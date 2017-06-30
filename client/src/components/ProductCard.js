@@ -1,7 +1,17 @@
 import React, { Component } from 'react';
-import { Col, Thumbnail } from 'react-bootstrap';
+import { Col, Thumbnail, OverlayTrigger, Tooltip } from 'react-bootstrap';
 
 class ProductCard extends Component {
+  handleLongName(name){
+    if (name.length>21){
+      return(
+        <OverlayTrigger placement="top" overlay={(<Tooltip>{name}</Tooltip>)}>
+          <h4 style={{ textTransform: 'uppercase' }}>{name.slice(0,19)+'...'}</h4>
+        </OverlayTrigger>
+      )
+    }
+    return <h4 style={{ textTransform: 'uppercase' }}>{name}</h4>
+  }
   render() {
     return (
       <Col xs={6} md={3}>
@@ -9,7 +19,7 @@ class ProductCard extends Component {
           src={require(`../assets/products/${this.props.jewellery.productCode}/${this.props.jewellery.productCode}-500x500.png`)}
           alt="242x200"
         >
-          <h4 style={{ textTransform: 'uppercase' }}>{ this.props.jewellery.name }</h4>
+          { this.handleLongName(this.props.jewellery.name) }
           <p>{ this.props.jewellery.price }</p>
         </Thumbnail>
       </Col>
