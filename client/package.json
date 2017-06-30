@@ -6,8 +6,10 @@
     "react": "^15.6.1",
     "react-bootstrap": "^0.31.0",
     "react-dom": "^15.6.1",
+    "react-image-magnify": "^1.8.0",
     "react-redux": "^5.0.5",
     "react-router-dom": "^4.1.1",
+    "react-slick": "^0.14.11",
     "redux": "^3.7.0",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.2.0"

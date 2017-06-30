@@ -3,7 +3,6 @@ import { Col, Thumbnail } from 'react-bootstrap';
 
 class ProductCard extends Component {
   render() {
-    console.log('length');
     return (
       <Col xs={6} md={3}>
         <Thumbnail
