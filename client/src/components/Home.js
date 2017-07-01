@@ -13,7 +13,7 @@ class Home extends Component {
       <div>
         <BrillianceCard />
         <VowCard />
-        <div style={{ margin: '3.775%' }}>
+        <div style={{ margin: '3.775%', textAlign: 'center' }}>
           <Col xs={12} md={6}>
             <Link to="/collections/heritage">
               <Image

@@ -9,7 +9,8 @@ export default [
     metalType: '18K',
     goldWeight: '5.00g',
     stoneInfo: '1 Diamond-0.050cts',
-    productCode: 'LMR00037'
+    productCode: 'LMR00037',
+    images: ['LMR00037F-D-1', 'LMR00037F-A-1', 'LMR00037F-B-1', 'LMR00037F-C-1', 'LMR00036M-37F'],
   },
   {
     name: 'Anchiale',
@@ -21,7 +22,8 @@ export default [
     metalType: '18K',
     goldWeight: '7.05g',
     stoneInfo: '1 Diamond-0.085cts',
-    productCode: 'LMR00036'
+    productCode: 'LMR00036',
+    images: ['LMR00036M-D-1', 'LMR00036M-A-1', 'LMR00036M-B-1', 'LMR00036M-C-1', 'LMR00036M-37F-1'],
   },
   {
     name: 'Arc',
@@ -32,7 +34,8 @@ export default [
     metalType: '18K',
     goldWeight: '2.74g',
     stoneInfo: '1 Diamond-0.185cts, 1 Diamond-0.007cts',
-    productCode: 'LMR00004'
+    productCode: 'LMR00004',
+    images: ['LMR00004-NEW-1'],
   },
   {
     name: 'Arrow',
@@ -42,7 +45,8 @@ export default [
     metalType: '18K',
     goldWeight: '1.46g',
     stoneInfo: '22 Yellow Diamonds-0.075cts',
-    productCode: 'LMR00010'
+    productCode: 'LMR00010',
+    images: ['LMR00010-2', 'LMR00010-B'],
   },
   {
     name: 'Arrow Round',
@@ -52,7 +56,8 @@ export default [
     metalType: '18K',
     goldWeight: '1.44g',
     stoneInfo: '28 Yellow Diamonds-0.072cts',
-    productCode: 'LMR00009'
+    productCode: 'LMR00009',
+    images: ['LMR00009-2', 'LMR00009-B'],
   },
   {
     name: 'BAND IN 18K TWO TONE',
@@ -63,7 +68,8 @@ export default [
     metalType: '18K',
     goldWeight: '7.00g',
     stoneInfo: '8 Diamonds-0.043cts',
-    productCode: 'LMR00056'
+    productCode: 'LMR00056',
+    images: ['LMR00056M-D', 'LMR00056M-A', 'LMR00056M-B', 'LMR00056M-C', 'LMR00056M-57F'],
   },
   {
     name: 'BAND IN 18K TWO TONE',
@@ -74,7 +80,8 @@ export default [
     metalType: '18K',
     goldWeight: '4.70g',
     stoneInfo: '6 Diamonds-0.025cts',
-    productCode: 'LMR00057'
+    productCode: 'LMR00057',
+    images: ['LMR00057F-D', 'LMR00057F-A', 'LMR00057F-B', 'LMR00057F-C', 'LMR00056M-57F'],
   },
   {
     name: 'BAND IN 18K TWO TONE',
@@ -85,7 +92,8 @@ export default [
     metalType: '18K',
     goldWeight: '7.50g',
     stoneInfo: '1 Diamond-0.102cts, 16 Diamonds-0.058cts',
-    productCode: 'LMR00058'
+    productCode: 'LMR00058',
+    images: ['LMR00058M-D', 'LMR00058M-A', 'LMR00058M-B', 'LMR00058M-C', 'LMR00058M-59F-1'],
   },
   {
     name: 'BAND IN 18K TWO TONE',
@@ -96,7 +104,8 @@ export default [
     metalType: '18K',
     goldWeight: '4.55g',
     stoneInfo: '1 Diamond-0.061cts, 16 Diamonds-0.049cts',
-    productCode: 'LMR00059'
+    productCode: 'LMR00059',
+    images: ['LMR00059F-D', 'LMR00059F-A', 'LMR00059F-B', 'LMR00059F-C', 'LMR00058M-59F'],
   },
   {
     name: 'BAND IN 18K WHITE GOLD',
@@ -107,7 +116,8 @@ export default [
     metalType: '18K',
     goldWeight: '7.20g',
     stoneInfo: '5 Diamonds-0.014cts',
-    productCode: 'LMR00044'
+    productCode: 'LMR00044',
+    images: ['LMR00044M-D', 'LMR00044M-A', 'LMR00044M-B', 'LMR00044M-C', 'LMR00044M-45F-1'],
   },
   {
     name: 'BAND IN 18K WHITE GOLD',
@@ -118,7 +128,8 @@ export default [
     metalType: '18K',
     goldWeight: '4.30g',
     stoneInfo: '4 Diamonds-0.009cts',
-    productCode: 'LMR00045'
+    productCode: 'LMR00045',
+    images: ['LMR00045F-D', 'LMR00045F-A', 'LMR00045F-B', 'LMR00045F-C', 'LMR00044M-45F'],
   },
   {
     name: 'BAND IN 18K WHITE GOLD',
@@ -129,7 +140,8 @@ export default [
     metalType: '18K',
     goldWeight: '7.10g',
     stoneInfo: '1 Diamond-0.075cts',
-    productCode: 'LMR00052'
+    productCode: 'LMR00052',
+    images: ['LMR00052M-D', 'LMR00052M-A', 'LMR00052M-B', 'LMR00052M-C', 'LMR00052M-53F'],
   },
   {
     name: 'BAND IN 18K WHITE GOLD',
@@ -140,7 +152,8 @@ export default [
     metalType: '18K',
     goldWeight: '5.01g',
     stoneInfo: '1 Diamond-0.055cts',
-    productCode: 'LMR00053'
+    productCode: 'LMR00053',
+    images: ['LMR00053F-D', 'LMR00053F-A', 'LMR00053F-B', 'LMR00053F-C', 'LMR00052M-53F'],
   },
   {
     name: 'BAND IN 18K WHITE GOLD',
@@ -151,7 +164,8 @@ export default [
     metalType: '18K',
     goldWeight: '7.40g',
     stoneInfo: '1 Princess-cut Diamond-0.030cts, 1 Diamond-0.025cts',
-    productCode: 'LMR00054'
+    productCode: 'LMR00054',
+    images: ['LMR00054M-D', 'LMR00054M-A', 'LMR00054M-B', 'LMR00054M-C', 'LMR00054M-55F'],
   },
   {
     name: 'BAND IN 18K WHITE GOLD',
@@ -162,7 +176,8 @@ export default [
     metalType: '18K',
     goldWeight: '5.03g',
     stoneInfo: '1 Princess-cut Diamond-0.015cts, 1 Diamond-0.011cts',
-    productCode: 'LMR00055'
+    productCode: 'LMR00055',
+    images: ['LMR00055F-D', 'LMR00055F-A', 'LMR00055F-B', 'LMR00055F-C', 'LMR00054M-55F'],
   },
   {
     name: 'BAND IN 18K WHITE GOLD',
@@ -173,7 +188,8 @@ export default [
     metalType: '18K',
     goldWeight: '4.50g',
     stoneInfo: '1 Diamond-0.037cts',
-    productCode: 'LMR00061'
+    productCode: 'LMR00061',
+    images: ['LMR00061F-D', 'LMR00061F-A', 'LMR00061F-B', 'LMR00061F-C', 'LMR00060M-61F'],
   },
   {
     name: 'BAND IN 18K WHITE GOLD',
@@ -184,7 +200,8 @@ export default [
     metalType: '18K',
     goldWeight: '7.55g',
     stoneInfo: '1 Diamond-0.075cts',
-    productCode: 'LMR00060'
+    productCode: 'LMR00060',
+    images: ['LMR00060M-D', 'LMR00060M-A', 'LMR00060M-B', 'LMR00060M-C', 'LMR00060M-61F'],
   },
   {
     name: 'Birdnest',
@@ -195,7 +212,8 @@ export default [
     metalType: '18K',
     goldWeight: '2.52g',
     stoneInfo: '1 Diamond-0.190cts, 1 Diamond-0.007cts',
-    productCode: 'LMR00007'
+    productCode: 'LMR00007',
+    images: ['LMR00007-NEW-1'],
   },
   {
     name: 'Bloom Earrings',
@@ -205,7 +223,8 @@ export default [
     metalType: '18K',
     goldWeight: '2.20g',
     stoneInfo: '2 Diamonds-0.100cts, 18 Diamonds-0.078cts',
-    productCode: 'LME00102'
+    productCode: 'LME00102',
+    images: ['LME00102'],
   },
   {
     name: 'Bloom Necklace',
@@ -215,7 +234,8 @@ export default [
     metalType: '18K',
     goldWeight: '3.60g',
     stoneInfo: '1 Diamond-0.150cts, 2 Diamonds-0.205cts, 9 Diamonds-0.065cts',
-    productCode: 'LMN00102'
+    productCode: 'LMN00102',
+    images: ['LMN00102'],
   },
   {
     name: 'Bond',
@@ -226,7 +246,8 @@ export default [
     metalType: '18K',
     goldWeight: '2.63g',
     stoneInfo: '1 Diamond-0.187cts, 1 Diamond-0.007cts',
-    productCode: 'LMR00002'
+    productCode: 'LMR00002',
+    images: ['LMR00002-NEW-1'],
   },
   {
     name: 'Bridge',
@@ -237,7 +258,8 @@ export default [
     metalType: '18K',
     goldWeight: '2.48g',
     stoneInfo: '1 Diamond-0.190cts, 1 Diamond-0.007cts',
-    productCode: 'LMR00001'
+    productCode: 'LMR00001',
+    images: ['LMR00001-NEW-2'],
   },
   {
     name: 'Chain',
@@ -246,7 +268,8 @@ export default [
     price: '$280.00',
     metalType: '18K',
     goldWeight: '1.62g',
-    productCode: 'LMR00024'
+    productCode: 'LMR00024',
+    images: ['JMR00024-1', 'JMR00024-B'],
   },
   {
     name: 'City Lights Starlight',
@@ -256,7 +279,8 @@ export default [
     metalType: '18K',
     goldWeight: '3.28g',
     stoneInfo: '7 Yellow Diamonds-0.597cts',
-    productCode: 'LMR00011'
+    productCode: 'LMR00011',
+    images: ['LMR00011-1', 'LMR00011-B'],
   },
   {
     name: 'Classic',
@@ -267,7 +291,8 @@ export default [
     metalType: '18K',
     goldWeight: '2.42g',
     stoneInfo: '1 Diamond-0.186cts, 1 Diamond-0.007cts',
-    productCode: 'LMR00006'
+    productCode: 'LMR00006',
+    images: ['LMR00006-NEW'],
   },
   {
     name: 'Crown',
@@ -277,7 +302,8 @@ export default [
     metalType: '18K',
     goldWeight: '1.80g',
     stoneInfo: '30 Diamonds-0.174cts, 5 Blue Sapphires-0.297cts',
-    productCode: 'LMR00014'
+    productCode: 'LMR00014',
+    images: ['LMR00014-1', 'LMR00014-B'],
   },
   {
     name: 'Curve',
@@ -287,7 +313,8 @@ export default [
     metalType: '18K',
     goldWeight: '2.31g',
     stoneInfo: '14 Diamonds-0.182cts',
-    productCode: 'LMR00015'
+    productCode: 'LMR00015',
+    images: ['LMR00015-1', 'LMR00015-B'],
   },
   {
     name: 'Émera',
@@ -299,7 +326,8 @@ export default [
     metalType: '18K',
     goldWeight: '6.60g',
     stoneInfo: '1 Diamond-0.045cts',
-    productCode: 'LMR00026'
+    productCode: 'LMR00026',
+    images: ['LMR0026M-D', 'LMR0026M-A', 'LMR0026M-B', 'LMR0026M-C', 'LMR0026M-27F'],
   },
   {
     name: 'Émera',
@@ -311,7 +339,8 @@ export default [
     metalType: '18K',
     goldWeight: '5.30g',
     stoneInfo: '1 Diamond-0.033cts',
-    productCode: 'LMR00027'
+    productCode: 'LMR00027',
+    images: ['LMR00027F-D-2', 'LMR00027F-A-2', 'LMR00027F-B-2', 'LMR00027F-C-2', 'LMR00026M-27F'],
   },
   {
     name: 'Fairy Earrings',
@@ -321,7 +350,8 @@ export default [
     metalType: '18K',
     goldWeight: '2.20g',
     stoneInfo: '2 Diamonds-0.170cts, 2 Diamonds-0.106cts, 8 Marquise Diamonds-0.360cts',
-    productCode: 'LME00105'
+    productCode: 'LME00105',
+    images: ['LME00105'],
   },
   {
     name: 'Fairy Necklace',
@@ -331,7 +361,8 @@ export default [
     metalType: '18K',
     goldWeight: '2.70g',
     stoneInfo: '1 Diamond-0.150cts, 4 Marquise Diamonds-0.305cts',
-    productCode: 'LMN00105'
+    productCode: 'LMN00105',
+    images: ['LMN00105'],
   },
   {
     name: 'Flare Earrings',
@@ -341,7 +372,8 @@ export default [
     metalType: '18K',
     goldWeight: '1.40g',
     stoneInfo: '2 Diamonds-0.17cts',
-    productCode: 'LME00100'
+    productCode: 'LME00100',
+    images: ['LME00100-1'],
   },
   {
     name: 'Flare Earrings in 18k White Gold Lining',
@@ -351,7 +383,8 @@ export default [
     metalType: '18K',
     goldWeight: '1.70g',
     stoneInfo: '2 Diamonds-0.170cts',
-    productCode: 'LME00103'
+    productCode: 'LME00103',
+    images: ['LME00103'],
   },
   {
     name: 'Flare Earrings Surrounded with Diamonds',
@@ -361,7 +394,8 @@ export default [
     metalType: '18K',
     goldWeight: '2.30g',
     stoneInfo: '2 Diamonds-0.180cts, 32 Diamonds-0.160cts',
-    productCode: 'LME00104'
+    productCode: 'LME00104',
+    images: ['LME00104'],
   },
   {
     name: 'Flare Necklace',
@@ -371,7 +405,8 @@ export default [
     metalType: '18K',
     goldWeight: '2.20g',
     stoneInfo: '1 Diamond-0.150cts',
-    productCode: 'LMN00100'
+    productCode: 'LMN00100',
+    images: ['LMN00100'],
   },
   {
     name: 'Fortune Earrings',
@@ -381,7 +416,8 @@ export default [
     metalType: '18K',
     goldWeight: '1.80g',
     stoneInfo: '2 Diamonds-0.17cts',
-    productCode: 'LME00101'
+    productCode: 'LME00101',
+    images: ['LME00101-1'],
   },
   {
     name: 'Fortune Necklace',
@@ -391,7 +427,8 @@ export default [
     metalType: '18K',
     goldWeight: '1.80g',
     stoneInfo: '2 Diamonds-0.17cts',
-    productCode: 'LMN00101'
+    productCode: 'LMN00101',
+    images: ['LMN00101'],
   },
   {
     name: 'Galaxy',
@@ -401,7 +438,8 @@ export default [
     metalType: '18K',
     goldWeight: '2.17g',
     stoneInfo: '41 Diamonds-0.381cts',
-    productCode: 'LMR00017'
+    productCode: 'LMR00017',
+    images: ['LMR00017-1', 'LMR00017-B'],
   },
   {
     name: 'HĒRA',
@@ -412,7 +450,8 @@ export default [
     metalType: '18K',
     goldWeight: '7.14g',
     stoneInfo: '9 Diamonds-0.070cts',
-    productCode: 'LMR00042'
+    productCode: 'LMR00042',
+    images: ['LMR00042M-D', 'LMR00042M-A-2', 'LMR00042M-B-2', 'LMR00042M-C-2', 'LMR00042M-43F'],
   },
   {
     name: 'HĒRA',
@@ -423,7 +462,8 @@ export default [
     metalType: '18K',
     goldWeight: '4.90g',
     stoneInfo: '22 Diamonds-0.050cts',
-    productCode: 'LMR00043'
+    productCode: 'LMR00043',
+    images: ['LMR00043F-D', 'LMR00043F-A', 'LMR00043F-B', 'LMR00043F-C', 'LMR00042M-43F'],
   },
   {
     name: 'Heritage Crosspath',
@@ -434,7 +474,8 @@ export default [
     metalType: '18K',
     goldWeight: '2.83g',
     stoneInfo: '1 Diamond-0.185cts, 21 Diamonds-0.115cts',
-    productCode: 'LMR00008'
+    productCode: 'LMR00008',
+    images: ['LMR00008-NEW-1'],
   },
   {
     name: 'Lady Bug',
@@ -444,7 +485,8 @@ export default [
     metalType: '18K',
     goldWeight: '1.39g',
     stoneInfo: '10 Pink Sapphires -0.104cts',
-    productCode: 'LMR00023'
+    productCode: 'LMR00023',
+    images: ['JMR00023-1', 'JMR00023-B'],
   },
   {
     name: 'Love Chain',
@@ -454,7 +496,8 @@ export default [
     metalType: '18K',
     goldWeight: '1.58g',
     stoneInfo: '17 Brown Diamonds-0.063cts',
-    productCode: 'LMR00020'
+    productCode: 'LMR00020',
+    images: ['JMR00020-1'],
   },
   {
     name: 'MNÊMOSYNÊ',
@@ -466,7 +509,8 @@ export default [
     metalType: '18K',
     goldWeight: '5.50g',
     stoneInfo: '1 Princess-cut Diamond-0.012cts, 1 Diamond-0.010cts',
-    productCode: 'LMR00029'
+    productCode: 'LMR00029',
+    images: ['LMR00029F-D-1', 'LMR00029F-A-1', 'LMR00029F-B-1', 'LMR00029F-C-1', 'LMR00028M-29F-1'],
   },
   {
     name: 'MNÊMOSYNÊ',
@@ -478,7 +522,8 @@ export default [
     metalType: '18K',
     goldWeight: '6.30g',
     stoneInfo: '1 Princess-cut Diamond-0.025cts, 1 Diamond-0.014cts',
-    productCode: 'LMR00028'
+    productCode: 'LMR00028',
+    images: ['LMR00028M-D', 'LMR00028M-A-2', 'LMR00028M-B-1', 'LMR00028M-C-2', 'LMR00028M-29F-1'],
   },
   {
     name: 'Moonlight',
@@ -488,7 +533,8 @@ export default [
     metalType: '18K',
     goldWeight: '1.43g',
     stoneInfo: '1 Diamond-0.07cts',
-    productCode: 'LMR00016'
+    productCode: 'LMR00016',
+    images: ['JMR00016-1', 'JMR00016-B', 'RG2'],
   },
   {
     name: 'Moonlight',
@@ -498,7 +544,8 @@ export default [
     metalType: '18K',
     goldWeight: '1.24g',
     stoneInfo: '18 Yellow Diamonds-0.054cts',
-    productCode: 'LMR00018'
+    productCode: 'LMR00018',
+    images: ['JMR00018-1', 'JMR00018-B'],
   },
   {
     name: 'Moonlight Earrings',
@@ -509,7 +556,8 @@ export default [
     metalType: '18K',
     goldWeight: '2.00g',
     stoneInfo: '2 Diamonds-0.60cts',
-    productCode: 'LME00016'
+    productCode: 'LME00016',
+    images: ['LME00016'],
   },
   {
     name: 'Moonlight Necklace',
@@ -520,7 +568,8 @@ export default [
     goldWeight: '1.57g',
     length: '16, 17',
     stoneInfo: '0.200cts, 0.300cts, 0.500cts',
-    productCode: 'LMN00016'
+    productCode: 'LMN00016',
+    images: ['LMN00016-RG', 'LMN00016-BG'],
   },
   {
     name: 'Orbit Necklace',
@@ -530,7 +579,8 @@ export default [
     metalType: '18K',
     goldWeight: '4.40g',
     stoneInfo: '1 Diamond-0.140cts, 45 Diamonds-0.220cts',
-    productCode: 'LMN00104'
+    productCode: 'LMN00104',
+    images: ['LMN00104-i', 'LMN00104-ii', 'LMN00104-iii', 'LMN00104-iv', 'LMN00104-v'],
   },
   {
     name: 'Persian',
@@ -540,7 +590,8 @@ export default [
     metalType: '18K',
     goldWeight: '1.32g',
     stoneInfo: '6 Yellow Diamonds-0.022cts',
-    productCode: 'LMR00021'
+    productCode: 'LMR00021',
+    images: ['LMR00021-1'],
   },
   {
     name: 'PHOIBÊ',
@@ -552,7 +603,8 @@ export default [
     metalType: '18K',
     goldWeight: '6.64g',
     stoneInfo: '57 Diamonds-0.150cts',
-    productCode: 'LMR00038'
+    productCode: 'LMR00038',
+    images: ['LMR0038M-D', 'LMR0038M-A', 'LMR0038M-B', 'LMR0038M-C', 'LMR0038M-39F'],
   },
   {
     name: 'PHOIBÊ',
@@ -564,7 +616,8 @@ export default [
     metalType: '18K',
     goldWeight: '4.50g',
     stoneInfo: '32 Diamonds-0.085cts',
-    productCode: 'LMR00039'
+    productCode: 'LMR00039',
+    images: ['LMR00039F-D', 'LMR00039F-A', 'LMR00039F-B', 'LMR00039F-C', 'LMR0038M-39F'],
   },
   {
     name: 'PROMÊTHEUS',
@@ -576,7 +629,8 @@ export default [
     metalType: '18K',
     goldWeight: '7.10g',
     stoneInfo: '3 Diamonds-0.016cts',
-    productCode: 'LMR00034'
+    productCode: 'LMR00034',
+    images: ['LMR00034M-D', 'LMR00034-A', 'LMR00034M-B-1', 'LMR00034M-C-1', 'LMR00034-35F'],
   },
   {
     name: 'PROMÊTHEUS',
@@ -588,7 +642,8 @@ export default [
     metalType: '18K',
     goldWeight: '4.50g',
     stoneInfo: '2 Diamonds-0.010cts',
-    productCode: 'LMR00035'
+    productCode: 'LMR00035',
+    images: ['LMR00035F-D', 'LMR00035F-A', 'LMR00035F-B', 'LMR00035F-C', 'LMR00034M-35F'],
   },
   {
     name: 'Ribbon',
@@ -598,7 +653,8 @@ export default [
     metalType: '18K',
     goldWeight: '1.54g',
     stoneInfo: '11 Diamonds-0.043cts',
-    productCode: 'LMR00022'
+    productCode: 'LMR00022',
+    images: ['JMR00022-1', 'JMR00022-B'],
   },
   {
     name: 'Ripple',
@@ -609,7 +665,8 @@ export default [
     metalType: '18K',
     goldWeight: '2.84g',
     stoneInfo: '1 Diamond-0.190cts, 1 Diamond-0.007cts',
-    productCode: 'LMR00005'
+    productCode: 'LMR00005',
+    images: ['LMR00005-NEW-2'],
   },
   {
     name: 'Rope',
@@ -618,7 +675,8 @@ export default [
     price: '$280.00',
     metalType: '18K',
     goldWeight: '1.62g',
-    productCode: 'LMR00025'
+    productCode: 'LMR00025',
+    images: ['JMR00025-1', 'JMR00025-B'],
   },
   {
     name: 'Starlight Necklace',
@@ -629,7 +687,8 @@ export default [
     goldWeight: '18K',
     stoneInfo: '10 Yellow Diamonds-1.319cts',
     length: '17',
-    productCode: 'LMN00011'
+    productCode: 'LMN00011',
+    images: ['LMN00011-B'],
   },
   {
     name: 'Trine',
@@ -639,7 +698,8 @@ export default [
     metalType: '18K',
     goldWeight: '2.86g',
     stoneInfo: '21 Diamonds-0.155cts',
-    productCode: 'LMR00013'
+    productCode: 'LMR00013',
+    images: ['LMR00013-2', 'LMR00013-B'],
   },
   {
     name: 'Trine',
@@ -649,7 +709,8 @@ export default [
     metalType: '18K',
     goldWeight: '2.74g',
     stoneInfo: '21 Diamonds-0.199cts',
-    productCode: 'LMR00012'
+    productCode: 'LMR00012',
+    images: ['LMR00012-2', 'LMR00012-B'],
   },
   {
     name: 'Trinity Necklace',
@@ -659,7 +720,8 @@ export default [
     metalType: '18K',
     goldWeight: '2.90g',
     stoneInfo: '1 Diamond-0.135cts, 2 Diamonds-0.100cts',
-    productCode: 'LMN00103'
+    productCode: 'LMN00103',
+    images: ['LMN00103'],
   },
   {
     name: 'Vintage Touch',
@@ -670,7 +732,8 @@ export default [
     metalType: '18K',
     goldWeight: '2.60g',
     stoneInfo: '1 Diamond-0.182cts, 1 Diamond-0.006cts',
-    productCode: 'LMR00003'
+    productCode: 'LMR00003',
+    images: ['LMR00003-NEW'],
   },
   {
     name: 'Zeus',
@@ -682,7 +745,8 @@ export default [
     metalType: '18K',
     goldWeight: '4.12g',
     stoneInfo: '2 Diamonds-0.17cts',
-    productCode: 'LMR00041'
+    productCode: 'LMR00041',
+    images: ['LMR00041F-D-1', 'LMR00041F-A-1', 'LMR00041F-B-1', 'LMR00041F-C-1', 'LMR00040M-41F-1'],
   },
   {
     name: 'Zeus',
@@ -694,6 +758,7 @@ export default [
     metalType: '18K',
     goldWeight: '7.10g',
     stoneInfo: '2 Diamonds-0.30cts',
-    productCode: 'LMR00040'
+    productCode: 'LMR00040',
+    images: ['LMR00040M-D', 'LMR00040M-A', 'LMR00040M-B', 'LMR00040M-C', 'LMR00040M-41F'],
   }
 ];

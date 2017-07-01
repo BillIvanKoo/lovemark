@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Col, Thumbnail, OverlayTrigger, Tooltip } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 class ProductCard extends Component {
   handleLongName(name){
@@ -15,13 +16,15 @@ class ProductCard extends Component {
   render() {
     return (
       <Col xs={6} md={3}>
-        <Thumbnail
-          src={require(`../assets/products/${this.props.jewellery.productCode}/${this.props.jewellery.productCode}-500x500.png`)}
-          alt="242x200"
-        >
-          { this.handleLongName(this.props.jewellery.name) }
-          <p>{ this.props.jewellery.price }</p>
-        </Thumbnail>
+        <Link to={`/product/${this.props.jewellery.productCode}`}>
+          <Thumbnail
+            src={require(`../assets/products/${this.props.jewellery.productCode}/${this.props.jewellery.productCode}-500x500.png`)}
+            alt="242x200"
+          >
+            { this.handleLongName(this.props.jewellery.name) }
+            <p>{ this.props.jewellery.price }</p>
+          </Thumbnail>
+        </Link>
       </Col>
     )
   }

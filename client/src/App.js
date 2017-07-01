@@ -4,7 +4,8 @@ import { Provider } from 'react-redux';
 
 import AppHeader from './components/AppHeader';
 import Home from './components/Home';
-import ProductList from './components/ProductList'
+import ProductList from './components/ProductList';
+import ProductPage from './components/ProductPage';
 import store from './store';
 
 class App extends Component {
@@ -19,6 +20,8 @@ class App extends Component {
               <Route exact path="/jewellery" component={ProductList} />
               <Route path="/jewellery/:type" component={ProductList} />
               <Route path="/collections/:category" component={ProductList} />
+              <Route path="/collections/:category" component={ProductList} />
+              <Route path="/product/:id" component={ProductPage} />
             </div>
           </div>
         </BrowserRouter>
