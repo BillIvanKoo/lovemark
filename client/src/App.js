@@ -20,7 +20,6 @@ class App extends Component {
               <Route exact path="/jewellery" component={ProductList} />
               <Route path="/jewellery/:type" component={ProductList} />
               <Route path="/collections/:category" component={ProductList} />
-              <Route path="/collections/:category" component={ProductList} />
               <Route path="/product/:id" component={ProductPage} />
             </div>
           </div>
