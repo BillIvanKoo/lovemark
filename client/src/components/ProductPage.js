@@ -56,11 +56,17 @@ class ProductPage extends Component {
               }
           }} />
         </Col>
-        <Col md={4} style={{ textAlign: 'center' }}>
-        <h5>{product.category}</h5>
-        <h5>{product.type}</h5>
-        <h3>{product.name}</h3>
-        <h5>{product.productCode}</h5>
+        <Col md={5} style={{
+          textAlign: 'center',
+          verticalAlign: 'middle',
+          textTransform: 'uppercase',
+          letterSpacing: '5px',
+        }}>
+          <h5>{product.category}</h5>
+          <h5>{product.type}</h5>
+          <h2>{product.name}</h2>
+          <h5>Ref. {product.productCode}</h5>
+          <h5>{product.price}</h5>
         </Col>
       </div>
     )

@@ -9,7 +9,6 @@ getAllJewelleries = (req, res) => {
 getOneJewellery = (req, res) => {
   Jewellery.findOne({_id: req.params.id})
   .then((jewellery)=>{
-    if (err) res.send(err)
     res.send(jewellery)
   })
 }
@@ -25,7 +24,7 @@ addJewellery = (req, res) => {
     price: req.body.price,
     images: req.body.images
   });
-  newJewellery.save((jewellery)=>{
+  newJewellery.save((err, jewellery)=>{
     if(err)res.send(err)
     res.send(jewellery)
   })

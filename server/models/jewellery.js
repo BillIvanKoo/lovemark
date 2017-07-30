@@ -10,6 +10,8 @@ var jewellerySchema = new Schema({
   description: String,
   price: String,
   images: Array,
+  category: [{ type: Schema.Types.ObjectId, ref: 'Category' }],
+  type: [{ type: Schema.Types.ObjectId, ref: 'Type' }]
 })
 
 module.exports = mongoose.model('Jewellery', jewellerySchema);

@@ -11,6 +11,8 @@ mongoose.connect('mongodb://localhost/lovemark_local')
 var index = require('./routes/index');
 var users = require('./routes/users');
 var jewelleries = require('./routes/jewelleries');
+var categories = require('./routes/categories');
+var types = require('./routes/types');
 
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
@@ -39,6 +41,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', index);
 app.use('/users', users);
 app.use('/jewelleries', jewelleries);
+app.use('/categories', categories);
+app.use('/types', types);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
